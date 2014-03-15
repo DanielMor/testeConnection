@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<style type="text/css">
+  * {
+   		padding:0;
+   		margin:0;
+	}
+  </style>
+	</head>
+	
+	<body>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="/scripts/mobile.js"></script>
+		<div id="cor" align="center">
+			<label id="inGame" style="display:none;"> Voce esta a jogar.</label>
+			<label id="inQueue" style="display:none;"> Voce esta em lista de espera.</label>
+			<label id="outGame" style="display:none;"> Voce nao esta a jogar. </label>
+			<label id="textID"></label>
+			<input id="button" style="display:none;" onclick="jogar()"  type="button" value="jogar" />
+		</div>
+	</body>
+</html>
