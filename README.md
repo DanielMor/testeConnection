@@ -24,5 +24,9 @@ Descricao da Aplicacao:
                             
   -> Apresenta os clientes mobile com status inGame e inQueue, clientes com status outGame nao aparecem... 
   
+  Para testar necessario fazer: npm install
+  
+  
+  
   
   Daniel Moreira
